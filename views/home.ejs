@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+<head>
+    <title>UPlay</title>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.10.0/mapbox-gl.css" rel="stylesheet">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.10.0/mapbox-gl.js"></script>
+    <link rel="stylesheet" href="/css/session.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/js/update.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        #map {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="top-bar">
+        <button class="timer" id="soccer">
+            Soccer
+        </button>
+        <button class="timer" id="basketball">
+            Basketball
+        </button>
+        <button class="timer" id="tennis">
+            Tennis
+        </button>
+    </div>
+    <div class="bottom-bar">
+        <button class="icon" id="active-icon">
+            <img src="https://cdn.discordapp.com/attachments/766636913343463454/1041120878290804808/image.png" alt="active">
+        </button>
+        <button class="icon" onclick="window.location.href='/activity';">
+            <img src="https://cdn.discordapp.com/attachments/766636913343463454/1041120984176001034/image.png" alt="active">
+        </button>
+    </div>
+    <div class="bottom-card" id="bottom-card">
+        <input id="card-user-id" type="hidden" value="">
+        <p id="card-name">Shoubhit Ravi</p>
+        <p style="margin-top: -4vw" id="card-sport">Tennis</p>
+        <p id="card-desc">Do you want to play with Shoubhit Ravi?</p>
+        <div class="inline">
+            <button class="respond-button" id="bottom-card-yes-button" style="background: #4BAE4F;">Request</button>
+            <button class="respond-button" id="bottom-card-no-button" style="background: #D30000">No</button>
+        </div>
+    </div>
+    <style>
+        .marker {
+            display: block;
+            border: none;
+            border-radius: 50%;
+            cursor: pointer;
+            padding: 0;
+        }
+    </style>
+
+    <div id="map"></div>
+
+    <script src="/js/home.js"></script>
+</body>
+
+</html>

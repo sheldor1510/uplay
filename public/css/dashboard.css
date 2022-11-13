@@ -1,0 +1,186 @@
+body {
+    font-family: 'Inter';
+    padding-left: 4vw;
+    padding-right: 4vw;
+    padding-top: 0vw;
+}
+
+.top {
+    display: flex;
+    flex-flow: row wrap;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top svg {
+    width: 50vw;
+    height: auto;
+    margin-top: 2.5vw;
+}
+
+.header {
+    margin-top: -1vw;
+}
+
+.header h1 {
+    display: flex;
+    flex-flow: row wrap;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.2;
+    font-size: 10vw;
+}
+
+.start-session {
+    border: none;
+    border-radius: 12px;
+    width: 87vw;
+    height: 18vw;
+    background: #4758D6;;
+    color: white;
+    font-size: 5.7vw;
+    text-align: center;
+    font-family: 'Inter';
+    margin-top: 0vw;
+}
+
+.profile-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -2vw;
+}
+
+.profile-wrapper p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 5.5vw;
+}
+
+.profile-wrapper img {
+    margin-top: 6.5vw;
+    margin-right: 7vw;
+}
+
+.profile-card {
+    background: #FFFFFF;
+    box-shadow: 0px 2.5px 12px rgba(0, 0, 0, 0.08);
+    border-radius: 16px;
+    width: 87vw;
+}
+
+.top-profile {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.top-profile img {
+    height: 12vw;
+    width: 12vw;
+    margin-left: 5vw;
+    margin-top: 5vw;
+    margin-right: 4vw;
+}
+
+.top-profile p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 4.5vw;
+    margin-top: 5.2vw;
+}
+
+.user-info {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-left: 5vw;
+    width: 65vw;
+    margin-top: -3vw;
+}
+
+.user-info p {
+    font-size: 4vw;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.karma-info {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-left: 5vw;
+    width: 80vw;
+    margin-top: -5vw;
+    height: 25vw
+}
+
+.karma-info p {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 5.7vw;
+    width: 35vw;
+    height: fit-content
+}
+
+.karma-info img {
+    height: 10vw;
+    width: auto;
+    margin-left: 2vw;
+    margin-top: 2.5vw;
+}
+
+.record {
+    background: #FFFFFF;
+    box-shadow: 0px 2.5px 12px rgba(0, 0, 0, 0.08);
+    border-radius: 16px;
+    width: 87vw;
+    padding-top: 1vw;
+    margin-bottom: 8vw;
+}
+
+.top-record {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-left: 5vw;
+    width: 76vw;
+    margin-top: 0vw;
+    height: 15vw
+}
+
+.top-record p {
+    font-style: normal;
+    font-weight: 500;
+    font-style: 5vw;
+}
+
+.bottom-record {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-left: 5vw;
+    width: 76vw;
+    height: 24vw;
+}
+
+.bottom-record img {
+    height: 15vw;
+    width: auto;
+    margin-top: 5vw;
+}
+
+.bottom-record p {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 5.7vw;
+    width: 35vw;
+    height: fit-content
+}
+
+.bottom-record p img {
+    height: 10vw;
+    width: auto;
+    margin-left: 2vw;
+    margin-top: 2.5vw;
+}

@@ -1,0 +1,181 @@
+body {
+    font-family: 'Inter';
+    padding-left: 4vw;
+    padding-right: 4vw;
+    padding-top: 0vw;
+    padding-bottom: 2vw;
+}
+
+.top {
+    display: flex;
+    flex-flow: row wrap;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top svg {
+    width: 50vw;
+    height: auto;
+}
+
+.step-text {
+    right: 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 5vw;
+    margin-top: 5vw;
+}
+
+.header {
+    margin-top: -2vw;
+}
+
+.header h1 {
+    display: flex;
+    flex-flow: row wrap;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.2;
+    font-size: 10vw;
+}
+
+.header p {
+    font-style: normal;
+    font-weight: 400;
+    color: #474747;
+    font-size: 4.5vw;
+    margin-top: -2vw;
+}
+
+.header img {
+    height: 10vw;
+    margin-top: 1vw;
+    margin-left: 3vw;
+    width: auto;
+}
+
+.inputs {
+    margin-top: 8vw;
+}
+
+.input p {
+    font-weight: 400;
+    color: #7B7B7B;
+    font-size: 3.5vw;
+}
+
+.input input {
+    border: none;
+    border-radius: 6px;
+    width: 93%;
+    height: 14vw;
+    background: #F7F7F7;
+    color: #242934;
+    font-size: 4.5vw;
+    padding-left: 5vw;
+    font-family: 'Inter';
+    margin-top: -2vw;
+    margin-bottom: 2vw;
+}
+
+.inline-input {
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 0vw;
+}
+
+.inline-input .input {
+    width: 50%;
+}
+
+.inline-input input {
+    width: 85%;
+}
+
+.input input:focus {
+    outline: none;
+}
+ 
+.continue {
+    border: none;
+    border-radius: 12px;
+    width: 87vw;
+    height: 18vw;
+    background: #4758D6;;
+    color: white;
+    font-size: 5.7vw;
+    text-align: center;
+    font-family: 'Inter';
+    margin-top: 8vw;
+}
+
+.inline-input-timer {
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 8vw;
+    width: 100%;
+}
+
+.inline-input-timer input {
+    border: none;
+    border-radius: 6px;
+    width: 17vw;
+    height: 28vw;
+    background: #F7F7F7;
+    color: #242934;
+    font-size: 15vw;
+    font-style: bold;
+    font-weight: 600;
+    text-align: center;
+    font-family: 'Inter';
+    margin-top: -2vw;
+    margin-bottom: 2vw;
+    margin-right: 3vw;
+}
+
+.inline-input-timer input:focus {
+    outline: none;
+}
+
+.inline-text {
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: -3vw;
+}
+
+.inline-text p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.5vw;
+    color: #7B7B7B;
+    margin-left: 15vw;
+}
+
+.sports-card {
+    border: none;
+    margin: auto;
+    border-radius: 12px;
+    width: 80vw;
+    height: 18vw;
+    background: #ffffff;
+    box-shadow: 0px 2.5px 12px rgba(0, 0, 0, 0.08);
+    border-radius: 16px;
+    font-size: 6vw;
+    color: #4758D6;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    padding-left: 5vw;
+    text-align: left;
+    margin-top: 5vw;
+}
+
+.sports-card p {
+    position: absolute;
+    margin-top: 5vw;
+}
+
+.active {
+    background: #4758D6 !important;
+    color: white !important;
+}
